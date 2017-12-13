@@ -34,23 +34,32 @@ margin: 0 auto;
 
 }
 
+.footer{
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  width: 963px;
+}
+
+
 
 .foray{
   color: lightgrey;
   font-size: 20px;
   border: 1px solid lightgrey;
-  width: 9%;
+  width: 120px;
   padding-top: 2%;
   padding-bottom: 2%;
-  padding-left: 4%;
-  padding-right: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
   z-index: 100;
   letter-spacing: -2px;
   background-color: rgba(255,255,255,0.5);
-  letter-spacing: -2px;
   margin-top: -12px;
-  margin-left: 186px;
-  position: absolute;
+  margin-left: 15%;
+  position: relative;
+  text-align: center;
 
 }
 
@@ -67,12 +76,19 @@ li{
 h3{
   color: rgba(0, 0, 0, 0.5);
   font-weight: bold;
+  font-size: 25px;
+  margin-bottom: -14px;
 }
-p{
+
+
+#please{
   color: rgba(0, 0, 0, 0.5);
+  margin-left: 21%;
+  margin-bottom: 100px;
+  position: relative;
 }
 #orderConfirmation{
-  line-height: .9px;
+  line-height: .3px;
 }
 
 .orderTable{
@@ -97,23 +113,20 @@ table {
 
 .thankYou{
   position: relative;
-  margin: 0 auto;
+  margin-top: 180px;
 }
 
-tr{
 
-  border: 1px solid red;
-}
 td{
   text-align: left;
-  border: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
   padding: 5px;
 }
 
 th {
-    border: 1px solid #dddddd;
     text-align: left;
     padding: auto;
+    padding-bottom: 8px;
     width: 200px;
 }
 
@@ -123,10 +136,14 @@ th {
   display: block;
   list-style-type: none;
 }
-.orderTotal{
+#orderTotal{
+
   float: right;
   color: black;
   font-weight: bold;
+  border-bottom: 1px solid #dddddd;
+  width: 224px;
+
 }
 
 .onlyUnderline{
@@ -137,7 +154,14 @@ th {
 
 .icons{
   border: 1px solid #dddddd;
-  width: 40%;
+    width: 200px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-left: 20%;
+    margin-top: -190px;
+    position: relative;
 }
 
 .bottomSection{
@@ -145,11 +169,51 @@ th {
 }
 
 .thankYou{
-  margin: 0 auto;
+  margin-top: 100px;
 }
 
 .payment{
   padding-bottom: 58px;
+}
+
+#item{
+  width: 100px;
+}
+
+#itemDesc{
+  float: left;
+  width: 200px;
+}
+
+#price{
+  float: right;
+  width: 242px;
+  text-align: right;
+}
+#quantity{
+  width: 20px;
+
+}
+.totalInfo{
+
+  margin: 0 auto;
+  width: 800px;
+}
+text.text1 {
+    padding-right: 296px;
+}
+
+.webLink{
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  color: #dddddd;
+}
+a{
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  list-style-type: none;
 }
 </style>
     <body>
@@ -161,8 +225,18 @@ th {
       </div>
   <div class="content">
     <div class="thankYou">
-      <h3>Thank you for your order</h3>
-      <p id="orderConfirmation">Here's your order confirmation</p>
+      <table style="">
+        <tr>
+          <th>
+      <h3>Thank you for your order.</h3>
+    </th>
+  </tr>
+  <tr>
+    <td style="border-top: none;">
+      <p id="orderConfirmation">Here's your order confirmation.</p>
+    </td>
+    </tr>
+    </table>
     </div>
 
     <div class="orderTable">
@@ -173,7 +247,7 @@ th {
             <th>Status</th>
           </tr>
           <tr>
-            <td>87873289179372</td>
+            <td style="color: dodgerblue; text-decoration: underline;">87873289179372</td>
             <td>9/16/2017</td>
             <td>Not shipped</td>
           </tr>
@@ -208,19 +282,22 @@ th {
     <div class="itemsTable">
       <table style="">
         <tr>
-          <th>Item(s)</th>
-          <th></th>
-          <th></th>
+          <th id="item">Item(s)</th>
+          <th id="quantity"></th>
+          <th id="itemDesc"></th>
+          <th id="price"></th>
         </tr>
         <tr>
-          <td><img src="forayPic1.png" alt="model in outfit" style="width:100px;"></td>
-          <td >VOLUMINOUS DOUBLE-BREASTED JACKET<h6>black</h6></td>
-          <td style="color:black;">$US 160.00</td>
+          <td style="border-top: 1px solid #dddddd;"><img src="forayPic1.png" alt="model in outfit" style="width:100px;"></td>
+          <td style="border-top: none;">1</td>
+          <td style="border-top: 1px solid #dddddd; padding-bottom: 58px;">VOLUMINOUS DOUBLE-BREASTED JACKET<h6>black</h6></td>
+          <td id="price"style="color:black; font-weight:bold; border-top: 1px solid #dddddd;">$US 160.00</td>
         </tr>
         <tr class="onlyUnderline">
-          <td><img src="forayPic2.png" alt="model in outfit"></td>
-          <td>THE JETSETTER BOTTOM<h6>nude</h6></td>
-          <td style="color:black;">$US 31.00</td>
+          <td style="border-top: none;"><img src="forayPic2.png" alt="model in outfit"></td>
+          <td style="border-top: none;">2</td>
+          <td style="border-top: none; padding-bottom: 58px;" >THE JETSETTER BOTTOM<h6>nude</h6></td>
+          <td id="price" style="color:black; font-weight:bold; border-top: none;">$US 31.00</td>
         </tr>
       </table>
       <div class="totalInfo">
@@ -236,42 +313,55 @@ th {
           <li>Tax</li>
           <li>Discounts</li>
         </ul>
+        <table>
+            <td id="orderTotal">ORDER TOTAL billing.total</td>
+        </table>
       </div>
-      <div class="orderTotal">
-        <text>ORDER TOTAL   billing.total</text>
-      </div>
+      <table class='webLink'>
+        <th><a href="http://foraycollective.com"style="text-decoration:none;"target:"blank">www.foraycollective.com</a></th>
+      </table>
     </div>
   <div class="bottomSection">
-    <a href="http://foraycollective.com"style="text-decoration:none;"target:"blank">www.foraycollective.com</a>
-    <hr/>
+
+    <!-- <hr/> -->
     <div class="icons">
+      <a href="http://www.instagram.com" target="blank">
       <span class="fa-stack fa-1x">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fa fa-instagram fa-stack-1x fa-inverse" style="color: white;"></i>
         </span>
+      </a>
+        <a href="http://www.youtube.com" target="blank">
         <span class="fa-stack fa-1x">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-youtube fa-stack-1x fa-inverse" style="color: white;"></i>
           </span>
+        </a>
+          <a href="http://www.facebook.com" target="blank">
           <span class="fa-stack fa-1x">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-facebook fa-stack-1x fa-inverse" style="color: white;"></i>
             </span>
+          </a>
+            <a href="http://www.twitter.com" target="blank">
             <span class="fa-stack fa-1x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-twitter fa-stack-1x fa-inverse" style="color: white;"></i>
               </span>
-              <span class="fa-stack fa-1x">
+            </a>
+              <a href="http://www.pinterest.com" target="blank">
+              <span class="fa-stack fa-1x" >
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-pinterest fa-stack-1x fa-inverse" style="color: white;"></i>
                 </span>
+              </a>
     </div>
-      <p>Please email us if there's anything you think we should know <a href="mailto:customerlove@foraycollective.com">customerlove@foraycolletive.com</a></p>
+      <p id="please">Please email us if there's anything you think we should know <a href="mailto:customerlove@foraycollective.com" style="color: dodgerblue; text-decoration: underline;">customerlove@foraycolletive.com</a></p>
   </div>
 </div>
   <div class="footer">
-    <text>ⓒ2017 Foray Collective, All rights reserved</text>
-    <text> 123 4th St. undefined, Santa Monica, CA 90403</text>
+    <text class="text1">ⓒ2017 Foray Collective, All rights reserved</text>
+    <text class="text2"> 123 4th St. undefined, Santa Monica, CA 90403</text>
   </div>
 </div>
 
