@@ -12,23 +12,26 @@
 <style>
 body{
   font-family: Arial;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 h1{
   text-align: center;
-  font-size: 81px;
-  letter-spacing: 1px;
-  color: rgb(0,0,0);
-  font-family: "AvenirNext-Bold";
-  font-weight: bold;
-
+font-size: 81px;
+letter-spacing: 1px;
+color: rgb(0,0,0);
+font-family: "AvenirNext-Bold";
+font-weight: bold;
+position: relative;
+margin: 0 auto;
 }
 
 .underline{
   border-top: 5px solid black;
-  width: 70%;
+  width: 963px;
+  height: 2px;
   margin: 0 auto;
-  margin-top: -68px;
+
 }
 
 
@@ -51,7 +54,103 @@ h1{
 
 }
 
+.content{
+  margin-top: 80px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+li{
+  list-style-type: none
+}
 
+h3{
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+p{
+  color: rgba(0, 0, 0, 0.5);
+}
+#orderConfirmation{
+  line-height: .9px;
+}
+
+.orderTable{
+  margin-top: 100px;
+}
+
+.addressTable{
+  margin-top: 50px;
+}
+
+.itemsTable{
+  margin-top: 100px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.thankYou{
+  position: relative;
+  margin: 0 auto;
+}
+
+tr{
+
+  border: 1px solid red;
+}
+td{
+  text-align: left;
+  border: 1px solid #dddddd;
+  padding: 5px;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: auto;
+    width: 200px;
+}
+
+
+.subtotal{
+  float: right;
+  display: block;
+  list-style-type: none;
+}
+.orderTotal{
+  float: right;
+  color: black;
+  font-weight: bold;
+}
+
+.onlyUnderline{
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: auto;
+}
+
+.icons{
+  border: 1px solid #dddddd;
+  width: 40%;
+}
+
+.bottomSection{
+  margin-top: 200px;
+}
+
+.thankYou{
+  margin: 0 auto;
+}
+
+.payment{
+  padding-bottom: 58px;
+}
 </style>
     <body>
       <div class="container">
@@ -63,11 +162,11 @@ h1{
   <div class="content">
     <div class="thankYou">
       <h3>Thank you for your order</h3>
-      <p>Here's your order confirmation</p>
+      <p id="orderConfirmation">Here's your order confirmation</p>
     </div>
 
     <div class="orderTable">
-        <table style="orderTable">
+        <table style="">
           <tr>
             <th>Your Order</th>
             <th>Order Date</th>
@@ -85,70 +184,91 @@ h1{
       <table style="addressTable">
         <tr>
           <th>Shipping Address</th>
-          <th>Billin Address</th>
+          <th>Billing Address</th>
           <th>Payment Type</th>
         </tr>
         <tr>
           <td>
-            <ul>
               <li>Address</li>
               <li>City</li>
               <li>Region</li>
               <li>CA 95014</li>
-            </ul>
           </td>
           <td>
-            <ul>
               <li>Address</li>
               <li>City</li>
               <li>Region</li>
               <li>CA 95014</li>
-            </ul>
           </td>
-          <td>Payment method</td>
+          <td class="payment">Payment method</td>
         </tr>
       </table>
     </div>
 
     <div class="itemsTable">
-      <table style="itemsTable">
+      <table style="">
         <tr>
           <th>Item(s)</th>
-          <th>Item Title</th>
-          <th>Price</th>
+          <th></th>
+          <th></th>
         </tr>
         <tr>
-          <td></td>
-          <td>VOLUMINOUS DOUBLE-BREASTED JACKET<h6>black</h6></td>
-          <td>$US 160.00</td>
+          <td><img src="forayPic1.png" alt="model in outfit" style="width:100px;"></td>
+          <td >VOLUMINOUS DOUBLE-BREASTED JACKET<h6>black</h6></td>
+          <td style="color:black;">$US 160.00</td>
         </tr>
-        <tr>
-          <td></td>
+        <tr class="onlyUnderline">
+          <td><img src="forayPic2.png" alt="model in outfit"></td>
           <td>THE JETSETTER BOTTOM<h6>nude</h6></td>
-          <td>$US 31.00</td>
+          <td style="color:black;">$US 31.00</td>
         </tr>
       </table>
       <div class="totalInfo">
-        <ul>
-          <li>Subtotal</li>
-          <li>Shipping</li>
-          <li>Tax</li>
-          <li>Discounts</li>
-        </ul>
-        <ul>
+        <ul class="subtotal">
           <li>billing.subtotal</li>
           <li>billing.shipping</li>
           <li>billing.taxes</li>
           <li>billing.discounts</li>
         </ul>
+        <ul class="subtotal">
+          <li>Subtotal</li>
+          <li>Shipping</li>
+          <li>Tax</li>
+          <li>Discounts</li>
+        </ul>
+      </div>
+      <div class="orderTotal">
+        <text>ORDER TOTAL   billing.total</text>
       </div>
     </div>
-  </div>
-  <div class="bottom-section">
+  <div class="bottomSection">
     <a href="http://foraycollective.com"style="text-decoration:none;"target:"blank">www.foraycollective.com</a>
-    <i class="fa fa-twitter"></i>
+    <hr/>
+    <div class="icons">
+      <span class="fa-stack fa-1x">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-instagram fa-stack-1x fa-inverse" style="color: white;"></i>
+        </span>
+        <span class="fa-stack fa-1x">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-youtube fa-stack-1x fa-inverse" style="color: white;"></i>
+          </span>
+          <span class="fa-stack fa-1x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse" style="color: white;"></i>
+            </span>
+            <span class="fa-stack fa-1x">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse" style="color: white;"></i>
+              </span>
+              <span class="fa-stack fa-1x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-pinterest fa-stack-1x fa-inverse" style="color: white;"></i>
+                </span>
+    </div>
       <p>Please email us if there's anything you think we should know <a href="mailto:customerlove@foraycollective.com">customerlove@foraycolletive.com</a></p>
   </div>
+</div>
   <div class="footer">
     <text>ⓒ2017 Foray Collective, All rights reserved</text>
     <text> 123 4th St. undefined, Santa Monica, CA 90403</text>
