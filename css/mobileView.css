@@ -25,7 +25,7 @@
   }
   .underline{
     border-top: 2px solid black;
-    width: 400px;
+    width: 350px;
     height: 1px;
     margin: 0 auto;
 
@@ -146,7 +146,7 @@
     color: black;
     font-weight: bold;
     border-bottom: 1px solid #dddddd;
-    width: 100px;
+    padding-right: 42px;
     border-top: 1px solid #dddddd;
   }
 
@@ -210,7 +210,7 @@
   .totalInfo{
 
     margin: 0 auto;
-    width: 100px;
+    width: 400px;
   }
   text.text1 {
       text-align: center;
@@ -313,14 +313,15 @@ text-decoration:none;
   font-weight: bold;
   position: relative;
   margin: 0 auto;
+  border-bottom: 2px solid black;
   }
-  .underline{
+  /*.underline{
     border-top: 2px solid black;
-    width: 400px;
+    width: 350px;
     height: 1px;
     margin: 0 auto;
 
-  }
+  }*/
 
   .footer{
     background-color: black;
@@ -437,7 +438,7 @@ text-decoration:none;
     color: black;
     font-weight: bold;
     border-bottom: 1px solid #dddddd;
-    width: 100px;
+    padding-right: 42px;
     border-top: 1px solid #dddddd;
   }
 
@@ -501,7 +502,7 @@ text-decoration:none;
   .totalInfo{
 
     margin: 0 auto;
-    width: 100px;
+    width: 400px;
   }
   text1 {
       text-align: center;

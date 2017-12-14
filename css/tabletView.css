@@ -34,7 +34,7 @@
     color: white;
     margin: 0 auto;
     text-align: right;
-    width: 100%;
+    width: 90%;
   }
 
 
@@ -144,7 +144,7 @@
     color: black;
     font-weight: bold;
     border-bottom: 1px solid #dddddd;
-    width: 224px;
+  padding-right: 42px;
   border-top: 1px solid #dddddd;
   }
 
@@ -201,7 +201,7 @@
   .totalInfo{
 
     margin: 0 auto;
-    width: 800px;
+    width: 819px;
   }
   text.text1 {
       float:left;
@@ -329,7 +329,7 @@
     color: white;
     margin: 0 auto;
     text-align: right;
-    width: 100%;
+    width: 90%;
   }
 
 
@@ -439,7 +439,7 @@
     color: black;
     font-weight: bold;
     border-bottom: 1px solid #dddddd;
-    width: 224px;
+    padding-right: 42px
   border-top: 1px solid #dddddd;
   }
 
@@ -496,7 +496,7 @@
   .totalInfo{
 
     margin: 0 auto;
-    width: 800px;
+    width: 819px;
   }
   text.text1 {
       float: left;

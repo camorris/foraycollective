@@ -23,6 +23,7 @@ font-family: "AvenirNext-Bold";
 font-weight: bold;
 position: relative;
 margin: 0 auto;
+border-bottom: 2px solid black;
 }
 
 .underline{
@@ -38,7 +39,7 @@ background-color: black;
 color: white;
 margin: 0 auto;
 text-align: right;
-width: 100%;
+width: 90%;
 }
 
 
@@ -55,8 +56,8 @@ padding-right: 2%;
 z-index: 100;
 letter-spacing: -2px;
 background-color: rgba(255,255,255,0.5);
-margin-top: -12px;
-margin-left: 15%;
+margin-top: -1.5%;
+margin-left: 11%;
 position: relative;
 text-align: center;
 
@@ -148,7 +149,7 @@ float: right;
 color: black;
 font-weight: bold;
 border-bottom: 1px solid #dddddd;
-width: 224px;
+padding-right: 42px;
 border-top: 1px solid #dddddd;
 }
 
