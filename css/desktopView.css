@@ -24,15 +24,10 @@ font-weight: bold;
 position: relative;
 margin: 0 auto;
 border-bottom: 2px solid black;
-}
-
-.underline{
-border-top: 5px solid black;
-width: 963px;
-height: 2px;
-margin: 0 auto;
+width: 833px;
 
 }
+
 
 .footer{
 background-color: black;
@@ -40,6 +35,8 @@ color: white;
 margin: 0 auto;
 text-align: right;
 width: 90%;
+padding-right: 10px;
+padding-left: 10px;
 }
 
 
@@ -56,8 +53,8 @@ padding-right: 2%;
 z-index: 100;
 letter-spacing: -2px;
 background-color: rgba(255,255,255,0.5);
-margin-top: -1.5%;
-margin-left: 11%;
+margin-top: -12px;
+margin-left: 227px;
 position: relative;
 text-align: center;
 
@@ -198,6 +195,8 @@ width: 200px;
 float: right;
 width: 242px;
 text-align: right;
+color:black;
+font-weight: bold;
 }
 #quantity{
 width: 20px;

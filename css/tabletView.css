@@ -12,22 +12,20 @@
 
   h1{
     text-align: center;
-  font-size: 300%;
-  letter-spacing: 1px;
-  color: rgb(0,0,0);
-  font-family: "AvenirNext-Bold";
-  font-weight: bold;
-  position: relative;
-  margin: 0 auto;
-  }
-
-  .underline{
-    border-top: 5px solid black;
-    width: 963px;
-    height: 2px;
+    font-size: 450%;
+    letter-spacing: 1px;
+    color: rgb(0,0,0);
+    font-family: "AvenirNext-Bold";
+    font-weight: bold;
+    position: relative;
     margin: 0 auto;
-
+    border-bottom: 2px solid black;
+    width: 757px;
   }
+
+
+
+
 
   .footer{
     background-color: black;
@@ -35,6 +33,8 @@
     margin: 0 auto;
     text-align: right;
     width: 90%;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
 
@@ -52,7 +52,7 @@
     letter-spacing: -2px;
     background-color: rgba(255,255,255,0.5);
     margin-top: -12px;
-    margin-left: 15%;
+    margin-left: 22px;
     position: relative;
     text-align: center;
 
@@ -83,7 +83,7 @@
 
   #please{
     color: rgba(0, 0, 0, 0.5);
-    margin-left: 21%;
+    margin-left: 9%;
     margin-bottom: 100px;
     position: relative;
   }
@@ -161,7 +161,7 @@
       padding-bottom: 2%;
       padding-right: 2%;
       padding-left: 2%;
-      margin-left: 20%;
+      margin-left: 9%;
       margin-top: -190px;
       position: relative;
   }
@@ -193,6 +193,9 @@
     float: right;
     width: 242px;
     text-align: right;
+    color:black;
+    font-weight: bold;
+
   }
   #quantity{
     width: 20px;
@@ -307,22 +310,20 @@
 
   h1{
     text-align: center;
-  font-size: 300%;
-  letter-spacing: 1px;
-  color: rgb(0,0,0);
-  font-family: "AvenirNext-Bold";
-  font-weight: bold;
-  position: relative;
-  margin: 0 auto;
-  }
-
-  .underline{
-    border-top: 5px solid black;
-    width: 963px;
-    height: 2px;
+    font-size: 450%;
+    letter-spacing: 1px;
+    color: rgb(0,0,0);
+    font-family: "AvenirNext-Bold";
+    font-weight: bold;
+    position: relative;
     margin: 0 auto;
+    border-bottom: 2px solid black;
+    width: 757px;
+
 
   }
+
+
 
   .footer{
     background-color: black;
@@ -330,6 +331,8 @@
     margin: 0 auto;
     text-align: right;
     width: 90%;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
 
@@ -347,7 +350,7 @@
     letter-spacing: -2px;
     background-color: rgba(255,255,255,0.5);
     margin-top: -12px;
-    margin-left: 15%;
+    margin-left: 22px;
     position: relative;
     text-align: center;
 
@@ -378,7 +381,7 @@
 
   #please{
     color: rgba(0, 0, 0, 0.5);
-    margin-left: 21%;
+    margin-left: 9%;
     margin-bottom: 100px;
     position: relative;
   }
@@ -456,7 +459,7 @@
       padding-bottom: 2%;
       padding-right: 2%;
       padding-left: 2%;
-      margin-left: 20%;
+      margin-left: 9%;
       margin-top: -190px;
       position: relative;
   }
@@ -488,6 +491,9 @@
     float: right;
     width: 242px;
     text-align: right;
+    color:black;
+    font-weight: bold;
+
   }
   #quantity{
     width: 20px;

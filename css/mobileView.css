@@ -22,6 +22,8 @@
   font-weight: bold;
   position: relative;
   margin: 0 auto;
+  width: 346px;
+
   }
   .underline{
     border-top: 2px solid black;
@@ -37,6 +39,8 @@
     margin: 0 auto;
     text-align: center;
     width: 400px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 
 
@@ -53,8 +57,8 @@
     z-index: 100;
     letter-spacing: -2px;
     background-color: rgba(255,255,255,0.5);
-    margin-top: -8px;
-    margin-left: 1%;
+    margin-top: -7px;
+    margin-left: 3px;
     position: relative;
     text-align: center;
 
@@ -66,11 +70,7 @@
     position: relative;
     margin: 0 auto;
   }
-  .bottomSection{
-    display: block;
-    position: relative;
-    margin: 0 auto;
-  }
+
   li{
     list-style-type: none
   }
@@ -85,7 +85,7 @@
 
   #please{
     color: rgba(0, 0, 0, 0.5);
-    margin-left: 21%;
+    margin-left: 19%;
     margin-bottom: 100px;
     position: relative;
   }
@@ -108,7 +108,7 @@
   table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
-      width: 400px;
+      width: 383px;
       position: relative;
       margin: 0 auto;
   }
@@ -166,13 +166,17 @@
       padding-bottom: 2%;
       padding-right: 2%;
       padding-left: 2%;
-      margin-left: 20%;
+      margin-left: 19%;
       margin-top: -190px;
       position: relative;
   }
 
   .bottomSection{
-    margin-top: 200px;
+      margin-top: 200px;
+      display: block;
+      position: relative;
+      margin-left: -88px;
+
   }
 
   .thankYou{
@@ -200,6 +204,9 @@
     text-align: right;
       color:black;
       font-weight:bold;
+      color:black;
+      font-weight: bold;
+
 
 
   }
@@ -210,7 +217,7 @@
   .totalInfo{
 
     margin: 0 auto;
-    width: 400px;
+    width: 383px;
   }
   text.text1 {
       text-align: center;
@@ -238,6 +245,7 @@ border-top: none;
 }
 #tdForayPic1{
 border-top: 1px solid #dddddd;
+padding-bottom: 56px;
 }
 #forayPic1{
 width:100px;
@@ -246,7 +254,7 @@ padding-bottom:79px;
 
 #quantity1{
 border-top: 1px solid #dddddd;
-padding-bottom: 165px;
+padding-bottom: 217px;
 font-weight: bold; color:black;
 }
 
@@ -257,12 +265,14 @@ padding-bottom: 133px;
 
 #tdForayPic2{
 border-top: none;
+padding-bottom: 44px;
 }
 
 #quantity2{
 border-top: none;
 font-weight: bold;
-color: black; padding-bottom:92px;
+color: black;
+padding-bottom:128px;
 }
 
 #description2{
@@ -296,6 +306,7 @@ text-decoration:none;
 
 
 
+
   body{
     font-family: "AvenirNext-Bold";
       color: rgba(0, 0, 0, 0.5);
@@ -314,14 +325,11 @@ text-decoration:none;
   position: relative;
   margin: 0 auto;
   border-bottom: 2px solid black;
-  }
-  /*.underline{
-    border-top: 2px solid black;
-    width: 350px;
-    height: 1px;
-    margin: 0 auto;
+  width: 346px;
 
-  }*/
+
+  }
+
 
   .footer{
     background-color: black;
@@ -329,6 +337,8 @@ text-decoration:none;
     margin: 0 auto;
     text-align: center;
     width: 400px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 
 
@@ -345,8 +355,8 @@ text-decoration:none;
     z-index: 100;
     letter-spacing: -2px;
     background-color: rgba(255,255,255,0.5);
-    margin-top: -8px;
-    margin-left: 1%;
+    margin-top: -7px;
+    margin-left: 3px;
     position: relative;
     text-align: center;
 
@@ -359,9 +369,11 @@ text-decoration:none;
     margin: 0 auto;
   }
   .bottomSection{
-    display: block;
-    position: relative;
-    margin: 0 auto;
+      margin-top: 200px;
+      display: block;
+      position: relative;
+      margin-left: -88px;
+
   }
   li{
     list-style-type: none
@@ -377,7 +389,7 @@ text-decoration:none;
 
   #please{
     color: rgba(0, 0, 0, 0.5);
-    margin-left: 21%;
+    margin-left: 19%;
     margin-bottom: 100px;
     position: relative;
   }
@@ -400,7 +412,7 @@ text-decoration:none;
   table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
-      width: 400px;
+      width: 383px;
       position: relative;
       margin: 0 auto;
   }
@@ -458,14 +470,12 @@ text-decoration:none;
       padding-bottom: 2%;
       padding-right: 2%;
       padding-left: 2%;
-      margin-left: 20%;
+      margin-left: 19%;
       margin-top: -190px;
       position: relative;
   }
 
-  .bottomSection{
-    margin-top: 200px;
-  }
+
 
   .thankYou{
     margin-top: 100px;
@@ -494,6 +504,8 @@ text-decoration:none;
       font-weight:bold;
 
 
+
+
   }
   /*#quantity{
     width: 20px;
@@ -502,7 +514,7 @@ text-decoration:none;
   .totalInfo{
 
     margin: 0 auto;
-    width: 400px;
+    width: 383px;
   }
   text1 {
       text-align: center;
@@ -530,6 +542,7 @@ text-decoration:none;
   }
   #tdForayPic1{
   border-top: 1px solid #dddddd;
+  padding-bottom: 56px;
   }
   #forayPic1{
   width:100px;
@@ -538,7 +551,7 @@ text-decoration:none;
 
   #quantity1{
   border-top: 1px solid #dddddd;
-  padding-bottom: 165px;
+  padding-bottom: 217px;
   font-weight: bold; color:black;
   }
 
@@ -549,12 +562,14 @@ text-decoration:none;
 
   #tdForayPic2{
   border-top: none;
+  padding-bottom: 44px;
   }
 
   #quantity2{
   border-top: none;
   font-weight: bold;
-  color: black; padding-bottom:92px;
+  color: black;
+  padding-bottom:128px;
   }
 
   #description2{
