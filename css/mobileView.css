@@ -12,6 +12,12 @@
   html{
     font-size: 100%;
   }
+  .header{
+    margin: 0 auto;
+    width: 366px;
+
+  }
+
 
   h1{
   text-align: center;
@@ -108,7 +114,7 @@
   table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
-      width: 383px;
+      width: 312px;
       position: relative;
       margin: 0 auto;
   }
@@ -315,6 +321,15 @@ text-decoration:none;
     font-size: 100%;
   }
 
+  .header{
+    margin: 0 auto;
+    width: 366px;
+
+  }
+
+table{
+  width: 312px
+}
   h1{
   text-align: center;
   font-size: 30px;
@@ -412,7 +427,7 @@ text-decoration:none;
   table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
-      width: 383px;
+      width: 312px;
       position: relative;
       margin: 0 auto;
   }
