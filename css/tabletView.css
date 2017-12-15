@@ -30,6 +30,7 @@
     border-bottom: 2px solid black;
     width: 757px;
   }
+  
   .foray{
     color: lightgrey;
     font-size: 20px;
@@ -485,43 +486,42 @@
     margin: 0 auto;
     }
 
-    .thankYou{
-      position: relative;
-      margin-top: 180px;
-    }
-
-
-    td{
-      text-align: left;
-      border-top: 1px solid #dddddd;
-      padding: 5px;
-    }
-
-    th {
-        text-align: left;
-        padding: auto;
-        padding-bottom: 8px;
-        width: 200px;
-       background-color: rgba(220,220,220, 0.1);
-    }
-  .totalInfo{
-
-    margin: 0 auto;
-    width: 819px;
+  td{
+    text-align: left;
+    border-top: 1px solid #dddddd;
+    padding: 5px;
   }
-  text.text1 {
-      float: left;
-  }
-  .thankYou{
-    margin-top: 100px;
-  }
+
   #tdForayPic1{
-  border-top: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
   }
 
   #tdForayPic2{
-  border-top: none;
+    border-top: none;
   }
+
+  text.text1{
+      float: left;
+  }
+
+  .thankYou{
+    position: relative;
+    margin-top: 100px;
+    }
+
+  th{
+    text-align: left;
+    padding: auto;
+    padding-bottom: 8px;
+    width: 200px;
+    background-color: rgba(220,220,220, 0.1);
+  }
+
+  .totalInfo{
+    margin: 0 auto;
+    width: 819px;
+  }
+
   .webLink{
     border-bottom: 1px solid #dddddd;
     position: relative;
