@@ -21,7 +21,7 @@ https://camorris.github.io/foraycollective
 ### Used Technologies
 ---
 
-HTML: To Display text on different pages of the site
+HTML: To Display text on the site.
 
 CSS: To style the text and tables found through out the site.
 
