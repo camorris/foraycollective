@@ -98,6 +98,7 @@
     font-weight: bold;
     font-size: 25px;
     margin-bottom: -14px;
+    background-color: white;
   }
 
   h6{
@@ -111,7 +112,7 @@
     padding-bottom: 2%;
     padding-right: 2%;
     padding-left: 2%;
-    margin-top: -190px;
+    margin-top: -200px;
     position: relative;
   }
 
@@ -246,7 +247,6 @@
     padding: auto;
     padding-bottom: 8px;
     width: 200px;
-    background-color: rgba(220,220,220,0.1);
   }
 
   .totalInfo{
@@ -255,11 +255,11 @@
   }
 
   .webLink{
-      border-bottom: 1px solid #dddddd;
-      position: relative;
-      margin: 0 auto;
-      margin-top: 100px;
-      color: #dddddd;
+    background-color: rgba(220,220,220,0.1);
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #dddddd;
   }
 
   /*FOOTER Section*/
