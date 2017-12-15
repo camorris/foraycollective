@@ -14,7 +14,7 @@
 
  This HTML email template was designed to show a typical clothing order as an assignment for the Junior Developer at Foray Collective. This Collective is a space where women can discover style inspiration and cutting edge designers.
 
-	(https://camorris.github.io/foraycollective/)
+	[link](camorris.github.io/foraycollective/)
 
 
 ### Used Technologies
