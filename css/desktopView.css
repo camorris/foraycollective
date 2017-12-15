@@ -4,296 +4,276 @@
 */
 
 @media (min-width: 1281px) {
+  body{
+    font-family: "AvenirNext-Bold";
+    color: rgba(0, 0, 0, 0.5);
+  }
 
-body{
-font-family: "AvenirNext-Bold";
-  color: rgba(0, 0, 0, 0.5);
-}
+  html{
+    font-size: 100%;
+  }
+    /*HEADER Section*/
+  .header{
+    margin: 0 auto;
+    width: 800px;
+  }
 
-html{
-  font-size: 100%;
-}
-.header{
-  margin: 0 auto;
-  width: 800px;
+  h1{
+    text-align: center;
+    font-size: 500%;
+    letter-spacing: 1px;
+    color: rgb(0,0,0);
+    font-family: "AvenirNext-Bold";
+    font-weight: bold;
+    position: relative;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+    width: 833px;
+  }
 
-}
-h1{
-text-align: center;
-font-size: 500%;
-letter-spacing: 1px;
-color: rgb(0,0,0);
-font-family: "AvenirNext-Bold";
-font-weight: bold;
-position: relative;
-margin: 0 auto;
-border-bottom: 2px solid black;
-width: 833px;
+  .foray{
+    color: lightgrey;
+    font-size: 20px;
+    border: 1px solid lightgrey;
+    width: 120px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 100;
+    letter-spacing: -2px;
+    background-color: rgba(255,255,255,0.5);
+    margin-top: -12px;
+    margin-left: -45px;
+    position: relative;
+    text-align: center;
+  }
 
-}
+  /*CONTENT Section*/
+  a{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    list-style-type: none;
+  }
 
+  .addressTable{
+    margin-top: 50px;
+  }
 
-.footer{
-background-color: black;
-color: white;
-margin: 0 auto;
-text-align: right;
-width: 90%;
-padding-right: 10px;
-padding-left: 10px;
-}
+  .bottomSection{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    margin-top: 200px;
+  }
 
+  .content{
+    margin-top: 80px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
 
+  #description1{
+    border-top: 1px solid #dddddd;
+    padding-bottom: 133px;
+  }
 
-.foray{
-color: lightgrey;
-font-size: 20px;
-border: 1px solid lightgrey;
-width: 120px;
-padding-top: 2%;
-padding-bottom: 2%;
-padding-left: 2%;
-padding-right: 2%;
-z-index: 100;
-letter-spacing: -2px;
-background-color: rgba(255,255,255,0.5);
-margin-top: -12px;
-margin-left: -45px;
-position: relative;
-text-align: center;
+  #description2{
+    border-top: none;
+    padding-bottom:58px;
+  }
 
-}
+  #forayPic1{
+    width:100px;
+    padding-bottom:79px;
+  }
 
-.content{
-margin-top: 80px;
-display: block;
-position: relative;
-margin: 0 auto;
-}
-.bottomSection{
-display: block;
-position: relative;
-margin: 0 auto;
-width: 800px;
+  h3{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: -14px;
+  }
 
-margin-top: 200px;
+  h6{
+   margin-top: -1px;
+  }
 
-}
-li{
-list-style-type: none
-}
+  .icons{
+    border: 1px solid #dddddd;
+    width: 200px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-top: -190px;
+    position: relative;
+  }
 
-h3{
-color: rgba(0, 0, 0, 0.5);
-font-weight: bold;
-font-size: 25px;
-margin-bottom: -14px;
-}
+  #item{
+    width: 100px;
+  }
 
+  #itemDesc{
+    float: left;
+    width: 200px;
+  }
 
-#please{
-color: rgba(0, 0, 0, 0.5);
+  .itemsTable{
+    margin-top: 100px;
+  }
 
-margin-bottom: 100px;
-position: relative;
-}
-#orderConfirmation{
-line-height: .3px;
-}
+  #linkForay{
+    text-decoration:none;
+  }
 
-.orderTable{
-margin-top: 100px;
-}
+  li{
+    list-style-type: none
+  }
 
-.addressTable{
-margin-top: 50px;
-}
+  .onlyUnderline{
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+  }
 
-.itemsTable{
-margin-top: 100px;
-}
+  #orderConfirmation{
+    line-height: .3px;
+  }
 
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 800px;
-  position: relative;
-  margin: 0 auto;
-}
+  .orderTable{
+    margin-top: 100px;
+  }
 
-.thankYou{
-position: relative;
-margin-top: 180px;
-}
+  #orderTotal{
+    float: right;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid #dddddd;
+    padding-right: 42px;
+    border-top: 1px solid #dddddd;
+  }
 
+  .orderConfirmation{
+    border-top: none;
+  }
 
-td{
-text-align: left;
-border-top: 1px solid #dddddd;
-padding: 5px;
-}
+  .orderNumber{
+    color: dodgerblue;
+    text-decoration: underline;
+  }
 
-th {
-  text-align: left;
-  padding: auto;
-  padding-bottom: 8px;
-  width: 200px;
-  /*Color overlay did not look right left it out for now*/
-  /*background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9815726902173914) 100%);*/
-}
+  .payment{
+    padding-bottom: 58px;
+  }
 
+  #please{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+    position: relative;
+  }
 
-.subtotal{
-float: right;
-display: block;
-list-style-type: none;
-}
-#orderTotal{
+  #price{
+    float: right;
+    width: 242px;
+    text-align: right;
+    color:black;
+    font-weight: bold;
+  }
 
-float: right;
-color: black;
-font-weight: bold;
-border-bottom: 1px solid #dddddd;
-padding-right: 42px;
-border-top: 1px solid #dddddd;
-}
+  #price2{
+    font-weight:bold;
+    border-top: none;
+    float: right;
+    width: 90px;
+    text-align: right;
+    color:black;
+  }
 
-.onlyUnderline{
-border-bottom: 1px solid #dddddd;
-text-align: left;
-padding: 20px;
-}
+  .subtotal{
+    float: right;
+    display: block;
+    list-style-type: none;
+  }
 
-.icons{
-border: 1px solid #dddddd;
-  width: 200px;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right: 2%;
-  padding-left: 2%;
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+  }
 
-  margin-top: -190px;
-  position: relative;
-}
+  text.text1{
+    float:left;
+  }
 
+  td{
+    text-align: left;
+    border-top: 1px solid #dddddd;
+    padding: 5px;
+  }
 
+  #tdForayPic1{
+    border-top: 1px solid #dddddd;
+  }
 
-.thankYou{
-margin-top: 100px;
-}
+  #tdForayPic2{
+    border-top: none;
+  }
 
-.payment{
-padding-bottom: 58px;
-}
-h6{
- margin-top: -1px;
-}
-#item{
-width: 100px;
-}
+  .thankYou{
+    position: relative;
+    margin-top: 280px;
+  }
 
-#itemDesc{
-float: left;
-width: 200px;
-}
+  th {
+    text-align: left;
+    padding: auto;
+    padding-bottom: 8px;
+    width: 200px;
+    background-color: rgba(220,220,220,0.1);
+  }
 
-#price{
-float: right;
-width: 242px;
-text-align: right;
-color:black;
-font-weight: bold;
-}
-#quantity{
-width: 20px;
+  .totalInfo{
+    margin: 0 auto;
+    width: 800px;
+  }
 
-}
-.totalInfo{
+  #quantity{
+    width: 20px;
+  }
 
-margin: 0 auto;
-width: 800px;
-}
-text.text1 {
-  float:left;
-}
+  #quantity1{
+    border-top: 1px solid #dddddd;
+    padding-bottom: 165px;
+    font-weight: bold; color:black;
+  }
 
+  #quantity2{
+    border-top: none;
+    font-weight: bold;
+    color: black; padding-bottom:92px;
+  }
 
-.webLink{
-border-bottom: 1px solid #dddddd;
-position: relative;
-margin: 0 auto;
-margin-top: 100px;
-color: #dddddd;
-}
-a{
-color: rgba(0, 0, 0, 0.5);
-text-decoration: none;
-list-style-type: none;
-}
-.orderNumber{
-color: dodgerblue;
-text-decoration: underline;
-}
-a{
-color: rgba(0, 0, 0, 0.5);
-text-decoration: none;
-list-style-type: none;
-}
-.orderNumber{
-color: dodgerblue;
-text-decoration: underline;
-}
+  .webLink{
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #dddddd;
+  }
 
-.orderConfirmation{
-border-top: none;
-}
-#tdForayPic1{
-border-top: 1px solid #dddddd;
-}
-#forayPic1{
-width:100px;
-padding-bottom:79px;
-}
-
-#quantity1{
-border-top: 1px solid #dddddd;
-padding-bottom: 165px;
-font-weight: bold; color:black;
-}
-
-#description1{
-border-top: 1px solid #dddddd;
-padding-bottom: 133px;
-}
-
-#tdForayPic2{
-border-top: none;
-}
-
-#quantity2{
-border-top: none;
-font-weight: bold;
-color: black; padding-bottom:92px;
-}
-
-#description2{
-border-top: none;
-padding-bottom:58px;
-}
-
-#price2{
-
-font-weight:bold;
-border-top: none;
-float: right;
-width: 90px;
-text-align: right;
-color:black;
-
-}
-
-#linkForay{
-text-decoration:none;
-}
-
+  /*Footer Section*/
+  .footer{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    text-align: right;
+    width: 90%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
