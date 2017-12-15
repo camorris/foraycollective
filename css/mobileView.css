@@ -286,12 +286,6 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-
-  /*HEADER SECTION*/
-  /*CONTENT SECTION*/
-  /*FOOTER SECTION*/
-
-
   body{
     font-family: "AvenirNext-Bold";
       color: rgba(0, 0, 0, 0.5);
@@ -299,42 +293,7 @@
   html{
     font-size: 100%;
   }
-
-  .header{
-    margin: 0 auto;
-    width: 366px;
-
-  }
-
-
-  h1{
-  text-align: center;
-  font-size: 30px;
-  letter-spacing: 1px;
-  color: rgb(0,0,0);
-  font-family: "AvenirNext-Bold";
-  font-weight: bold;
-  position: relative;
-  margin: 0 auto;
-  border-bottom: 2px solid black;
-  width: 346px;
-
-
-  }
-
-
-  .footer{
-    background-color: black;
-    color: white;
-    margin: 0 auto;
-    text-align: center;
-    width: 400px;
-    padding-right: 5px;
-    padding-left: 5px;
-  }
-
-
-
+  /*HEADER SECTION*/
   .foray{
     color: lightgrey;
     font-size: 15px;
@@ -354,25 +313,64 @@
 
   }
 
+  .header{
+    margin: 0 auto;
+    width: 366px;
+
+  }
+  h1{
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: rgb(0,0,0);
+  font-family: "AvenirNext-Bold";
+  font-weight: bold;
+  position: relative;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  width: 346px;
+
+  }
+
+  /*CONTENT SECTION*/
+  a{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  .addressTable{
+    margin-top: 50px;
+  }
+
+  .bottomSection{
+      display: block;
+      position: relative;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 312px;
+  }
+
   .content{
     margin-top: 80px;
     display: block;
     position: relative;
     margin: 0 auto;
   }
-  .bottomSection{
 
-      display: block;
-      position: relative;
-      margin: 0 auto;
-      margin-top: 10px;
-      width: 312px;
-
-
-
+  #description1{
+    border-top: 1px solid #dddddd;
+    padding-bottom: 133px;
   }
-  li{
-    list-style-type: none
+
+  #description2{
+    border-top: none;
+    padding-bottom:58px;
+  }
+
+  #forayPic1{
+    width:100px;
+    padding-bottom:79px;
   }
 
   h3{
@@ -382,66 +380,59 @@
     margin-bottom: -14px;
   }
 
+  h6{
+    margin-top: -1px;
+  }
 
-  #please{
-    color: rgba(0, 0, 0, 0.5);
-
-    margin-bottom: 100px;
+  .icons{
+    border: 1px solid #dddddd;
+    width: 200px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    padding-left: 2%;
     position: relative;
   }
-  #orderConfirmation{
-    line-height: .3px;
+
+  #item{
+    width: 500px;
   }
 
-  .orderTable{
-    margin-top: 100px;
-  }
-
-  .addressTable{
-    margin-top: 50px;
+  #itemDesc{
+   float: left;
+   width: 100px;
   }
 
   .itemsTable{
     margin-top: 100px;
   }
 
-  table {
-      font-family: arial, sans-serif;
-      border-collapse: collapse;
-      width: 312px;
-      position: relative;
-      margin: 0 auto;
+  li{
+   list-style-type: none
   }
 
-  .thankYou{
-    position: relative;
-    margin-top: 180px;
+  #linkForay{
+    text-decoration:none;
   }
 
-
-  td{
-    text-align: left;
-    border-top: 1px solid #dddddd;
-    padding: 5px;
+  .orderConfirmation{
+    border-top: none;
   }
 
-  th {
-      text-align: left;
-      padding: auto;
-      padding-bottom: 8px;
-      width: 100px;
-      /*Color overlay did not look right left it out for now*/
-      /*background-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9815726902173914) 100%);*/
+  #orderConfirmation{
+    line-height: .3px;
   }
 
-
-  .subtotal{
-    float: right;
-    display: block;
-    list-style-type: none;
+  .orderNumber{
+    color: dodgerblue;
+    text-decoration: underline;
   }
+
+  .orderTable{
+    margin-top: 100px;
+  }
+
   #orderTotal{
-
     float: right;
     color: black;
     font-weight: bold;
@@ -455,67 +446,102 @@
     text-align: left;
     padding: 20px;
   }
-  .orderConfirmation{
-    border-top: none;
-  }
-
-  .icons{
-    border: 1px solid #dddddd;
-      width: 200px;
-      padding-top: 2%;
-      padding-bottom: 2%;
-      padding-right: 2%;
-      padding-left: 2%;
-
-
-      position: relative;
-  }
-
-
-
-  .thankYou{
-    margin-top: 100px;
-  }
 
   .payment{
     padding-bottom: 58px;
   }
-   h6{
-     margin-top: -1px;
-   }
-  #item{
-    width: 500px;
-  }
 
-  #itemDesc{
-    float: left;
-    width: 100px;
+  #please{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+    position: relative;
   }
 
   #price{
     float: right;
     width: 90px;
     text-align: right;
-      color:black;
-      font-weight:bold;
-
-
-
-
+    color:black;
+    font-weight:bold;
   }
-  /*#quantity{
-    width: 20px;
 
-  }*/
+  #price2{
+    font-weight:bold;
+    border-top: none;
+    float: right;
+    width: 90px;
+    text-align: right;
+    color:black;
+  }
+
+  #quantity1{
+    border-top: 1px solid #dddddd;
+    padding-bottom: 217px;
+    font-weight: bold; color:black;
+  }
+
+  #quantity2{
+    border-top: none;
+    font-weight: bold;
+    color: black;
+    padding-bottom:128px;
+  }
+
+  .subtotal{
+    float: right;
+    display: block;
+    list-style-type: none;
+  }
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 312px;
+      position: relative;
+      margin: 0 auto;
+  }
+
+  #tdForayPic1{
+    border-top: 1px solid #dddddd;
+    padding-bottom: 56px;
+  }
+
+  #tdForayPic2{
+    border-top: none;
+    padding-bottom: 44px;
+  }
+
+  .thankYou{
+    position: relative;
+    margin-top: 180px;
+  }
+
+  td{
+    text-align: left;
+    border-top: 1px solid #dddddd;
+    padding: 5px;
+  }
+
+  th{
+    text-align: left;
+    padding: auto;
+    padding-bottom: 8px;
+    width: 100px;
+    background-color: rgba(220,220,220, 0.1);
+  }
+
+  text1{
+    text-align: center;
+  }
+
   .totalInfo{
-
     margin: 0 auto;
     width: 383px;
   }
-  text1 {
-      text-align: center;
-  }
 
+  .thankYou{
+    margin-top: 100px;
+  }
+  
   .webLink{
     border-bottom: 1px solid #dddddd;
     position: relative;
@@ -523,70 +549,15 @@
     margin-top: 100px;
     color: #dddddd;
   }
-  a{
-    color: rgba(0, 0, 0, 0.5);
-    text-decoration: none;
-    list-style-type: none;
-  }
-  .orderNumber{
-  color: dodgerblue;
-  text-decoration: underline;
-  }
 
-  .orderConfirmation{
-  border-top: none;
+  /*FOOTER SECTION*/
+  .footer{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
-  #tdForayPic1{
-  border-top: 1px solid #dddddd;
-  padding-bottom: 56px;
-  }
-  #forayPic1{
-  width:100px;
-  padding-bottom:79px;
-  }
-
-  #quantity1{
-  border-top: 1px solid #dddddd;
-  padding-bottom: 217px;
-  font-weight: bold; color:black;
-  }
-
-  #description1{
-  border-top: 1px solid #dddddd;
-  padding-bottom: 133px;
-  }
-
-  #tdForayPic2{
-  border-top: none;
-  padding-bottom: 44px;
-  }
-
-  #quantity2{
-  border-top: none;
-  font-weight: bold;
-  color: black;
-  padding-bottom:128px;
-  }
-
-  #description2{
-  border-top: none;
-  padding-bottom:58px;
-  }
-
-  #price2{
-
-  font-weight:bold;
-  border-top: none;
-  float: right;
-  width: 90px;
-  text-align: right;
-  color:black;
-
-  }
-
-  #linkForay{
-  text-decoration:none;
-  }
-
-
 }
