@@ -30,7 +30,7 @@
     border-bottom: 2px solid black;
     width: 757px;
   }
-  
+
   .foray{
     color: lightgrey;
     font-size: 20px;
@@ -67,6 +67,10 @@
       margin: 0 auto;
       margin-top: 200px;
       width: 800px;
+    }
+
+    .container{
+      height:100px;
     }
 
     .content{
@@ -347,6 +351,10 @@
     width: 800px;
   }
 
+  .container{
+    height:100px;
+  }
+  
   .content{
     margin-top: 80px;
     display: block;

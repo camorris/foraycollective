@@ -68,6 +68,10 @@
     width: 800px;
   }
 
+  .container{
+    height:100px;
+  }
+
   .content{
     margin-top: 80px;
     display: block;

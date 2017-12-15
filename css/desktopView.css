@@ -68,6 +68,10 @@
     margin-top: 200px;
   }
 
+  .container{
+    height:100px;
+  }
+  
   .content{
     margin-top: 80px;
     display: block;
