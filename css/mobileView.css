@@ -5,7 +5,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
   body{
     font-family: "AvenirNext-Bold";
-      color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
   }
   html{
     font-size: 100%;
@@ -48,205 +48,222 @@
   }
 
 /*CONTENT SECTION*/
-a{
-  color: rgba(0, 0, 0, 0.5);
-  text-decoration: none;
-  list-style-type: none;
-}
-.addressTable{
-  margin-top: 50px;
-}
-.bottomSection{
+  a{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .addressTable{
+    margin-top: 50px;
+  }
 
+  .bottomSection{
     display: block;
     position: relative;
     width: 312px;
     margin: 0 auto;
     margin-top: 10px;
-}
-.content{
-  margin-top: 80px;
-  display: block;
-  position: relative;
-  margin: 0 auto;
-}
-#description1{
-border-top: 1px solid #dddddd;
-padding-bottom: 133px;
-}
-#description2{
-border-top: none;
-padding-bottom:58px;
-}
-#forayPic1{
-width:100px;
-padding-bottom:79px;
-}
-h3{
-  color: rgba(0, 0, 0, 0.5);
-  font-weight: bold;
-  font-size: 20px;
-  margin-bottom: -14px;
-}
-h6{
-  margin-top: -1px;
-}
-.icons{
-  border: 1px solid #dddddd;
+  }
+
+  .content{
+    margin-top: 80px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  #description1{
+    border-top: 1px solid #dddddd;
+    padding-bottom: 133px;
+  }
+
+  #description2{
+    border-top: none;
+    padding-bottom:58px;
+  }
+
+  #forayPic1{
+    width:100px;
+    padding-bottom:79px;
+  }
+
+  h3{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: -14px;
+  }
+
+  h6{
+    margin-top: -1px;
+  }
+
+  .icons{
+    border: 1px solid #dddddd;
     width: 200px;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-right: 2%;
     padding-left: 2%;
     position: relative;
-}
-.itemsTable{
-  margin-top: 100px;
-}
-#item{
-  width: 500px;
-}
+  }
 
-#itemDesc{
-  float: left;
-  width: 100px;
-}
-li{
-  list-style-type: none
-}
-#linkForay{
-text-decoration:none;
-}
-.onlyUnderline{
-  border-bottom: 1px solid #dddddd;
-  text-align: left;
-  padding: 20px;
-}
-.orderNumber{
-color: dodgerblue;
-text-decoration: underline;
-}
+  .itemsTable{
+    margin-top: 100px;
+  }
 
-.orderConfirmation{
-border-top: none;
-}
-#orderConfirmation{
-  line-height: .3px;
-}
+  #item{
+    width: 500px;
+  }
 
-.orderTable{
-  margin-top: 100px;
-}
-#orderTotal{
+  #itemDesc{
+    float: left;
+    width: 100px;
+  }
 
-  float: right;
-  color: black;
-  font-weight: bold;
-  border-bottom: 1px solid #dddddd;
-  padding-right: 7px;
-  border-top: 1px solid #dddddd;
-}
+  li{
+    list-style-type: none;
+  }
 
+  #linkForay{
+    text-decoration:none;
+  }
 
+  .onlyUnderline{
+    border-bottom: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+  }
 
-.payment{
-  padding-bottom: 58px;
-}
-#please{
-  color: rgba(0, 0, 0, 0.5);
+  .orderConfirmation{
+    border-top: none;
+  }
 
-  margin-bottom: 100px;
-  position: relative;
-}
-#price{
-  float: right;
-  width: 90px;
-  text-align: right;
+  #orderConfirmation{
+    line-height: .3px;
+  }
+
+  .orderNumber{
+    color: dodgerblue;
+    text-decoration: underline;
+  }
+
+  .orderTable{
+    margin-top: 100px;
+  }
+
+  #orderTotal{
+    float: right;
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid #dddddd;
+    padding-right: 7px;
+    border-top: 1px solid #dddddd;
+  }
+
+  .payment{
+    padding-bottom: 58px;
+  }
+
+  #please{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 100px;
+    position: relative;
+  }
+
+  #price{
+    float: right;
+    width: 90px;
+    text-align: right;
     color:black;
     font-weight:bold;
     color:black;
     font-weight: bold;
-}
-#price2{
+  }
 
-font-weight:bold;
-border-top: none;
-float: right;
-width: 90px;
-text-align: right;
-color:black;
+  #price2{
+    font-weight:bold;
+    border-top: none;
+    float: right;
+    width: 90px;
+    text-align: right;
+    color:black;
+  }
 
-}
-#quantity1{
-border-top: 1px solid #dddddd;
-padding-bottom: 217px;
-font-weight: bold; color:black;
-}
-#quantity2{
-border-top: none;
-font-weight: bold;
-color: black;
-padding-bottom:128px;
-}
-.subtotal{
-  float: right;
-  display: block;
-  list-style-type: none;
-}
-table {
+  #quantity1{
+    border-top: 1px solid #dddddd;
+    padding-bottom: 217px;
+    font-weight: bold; color:black;
+  }
+
+  #quantity2{
+    border-top: none;
+    font-weight: bold;
+    color: black;
+    padding-bottom:128px;
+  }
+
+  .subtotal{
+    float: right;
+    display: block;
+    list-style-type: none;
+  }
+
+  table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 312px;
     position: relative;
     margin: 0 auto;
-}
-td{
-  text-align: left;
-  border-top: 1px solid #dddddd;
-  padding: 5px;
-}
-#tdForayPic1{
-border-top: 1px solid #dddddd;
-padding-bottom: 56px;
-}
-#tdForayPic2{
-border-top: none;
-padding-bottom: 44px;
-}
+  }
 
-text.text1 {
+  td{
+    text-align: left;
+    border-top: 1px solid #dddddd;
+    padding: 5px;
+  }
+
+  #tdForayPic1{
+    border-top: 1px solid #dddddd;
+    padding-bottom: 56px;
+  }
+
+  #tdForayPic2{
+    border-top: none;
+    padding-bottom: 44px;
+  }
+
+  text.text1 {
     text-align: center;
-}
+  }
 
+  .thankYou{
+    position: relative;
+    margin-top: 100px;
+  }
 
-
-.thankYou{
-  position: relative;
-  margin-top: 100px;
-}
-th {
+  th{
     text-align: left;
     padding: auto;
     padding-bottom: 8px;
     width: 100px;
     background-color: rgba(220,220,220, 0.1)
-}
+  }
 
-.totalInfo{
+  .totalInfo{
+    margin: 0 auto;
+    width: 383px;
+  }
 
-  margin: 0 auto;
-  width: 383px;
-}
+  .webLink{
+    border-bottom: 1px solid #dddddd;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: #dddddd;
+  }
 
-.webLink{
-  border-bottom: 1px solid #dddddd;
-  position: relative;
-  margin: 0 auto;
-  margin-top: 100px;
-  color: #dddddd;
-}
-
-/*FOOTER SECTION*/
+  /*FOOTER SECTION*/
 
   .footer{
     background-color: black;
@@ -257,7 +274,6 @@ th {
     padding-right: 5px;
     padding-left: 5px;
   }
-
 }
 
 
