@@ -260,6 +260,10 @@
       width: 819px;
     }
 
+    #underline{
+      border-bottom: 1px solid lightgrey;
+    }
+
     .webLink{
       background-color: rgba(220,220,220,0.1);
       position: relative;
@@ -526,6 +530,10 @@
   .totalInfo{
     margin: 0 auto;
     width: 819px;
+  }
+  
+  #underline{
+    border-bottom: 1px solid lightgrey;
   }
 
   .webLink{

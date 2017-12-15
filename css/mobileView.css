@@ -259,6 +259,10 @@
     width: 383px;
   }
 
+  #underline{
+    border-bottom: 1px solid lightgrey;
+  }
+
   .webLink{
     position: relative;
     margin: 0 auto;
@@ -548,6 +552,10 @@
 
   .thankYou{
     margin-top: 100px;
+  }
+  
+  #underline{
+    border-bottom: 1px solid lightgrey;
   }
 
   .webLink{
