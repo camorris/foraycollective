@@ -5,8 +5,8 @@
 - Purpose
 - Used Technologies
 - Unsolved Problems
-- How To Use
-- References
+
+
 
 
 ### Purpose
@@ -30,6 +30,4 @@ Fontawesome: Was used to design the icons found on the page.
 
 ### Unsolved Problems
 ---
-  Have yet to be determined, will ask the VP of Engineering if there is anything that needs to changed or worked on.
-### How to Use
----
+  Have yet to be determined, will ask the VP of Engineering if there is anything that needs to be changed or worked on.
