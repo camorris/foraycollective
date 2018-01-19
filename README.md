@@ -26,8 +26,3 @@ HTML: To Display text on the site.
 CSS: To style the text and tables found through out the site.
 
 Fontawesome: Was used to design the icons found on the page.
-
-
-### Unsolved Problems
----
-  Have yet to be determined, will ask the VP of Engineering if there is anything that needs to be changed or worked on.
